@@ -1,6 +1,3 @@
-Rails:
-  Enabled: true
-
 Documentation:
   Enabled: false
 
@@ -8,7 +5,8 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 AllCops:
-  TargetRubyVersion: 2.5.3
+  TargetRubyVersion: 2.7.4
+  NewCops: enable
   Exclude:
     - 'Gemfile'
     - 'Rakefile'
